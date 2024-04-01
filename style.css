@@ -1,0 +1,149 @@
+nav {
+    background-color: #1a4f76;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.order-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    background-color: #45a049;
+}
+
+/* body */
+body {
+    background-image: url("https://img.freepik.com/premium-photo/pastel-pink-blue-gradient-wallpaper-background_198067-99100.jpg?size=626&ext=jpg&ga=GA1.1.443488270.1710986830&semt=ais");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: verdana;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Adjusting image size */
+td img {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Warna latar belakang baris genap */
+}
+
+tr:nth-child(odd) {
+    background-color: #ccc; /* Warna latar belakang baris ganjil */
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Adjusting image size */
+td img {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a4f76;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/*Handphone*/
+@media only screen and (max-width: 600px) {
+    /* Mengurangi lebar tabel */
+    table {
+        width: 100%; 
+        overflow-x: auto; 
+    }
+
+  
+    th, td {
+        padding: 10px; 
+    }
+
+ 
+    td img {
+        width: 60px; 
+    }
+
+
+    footer {
+        padding: 10px; 
+    }
+}
